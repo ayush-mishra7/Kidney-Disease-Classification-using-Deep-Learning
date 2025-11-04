@@ -80,7 +80,9 @@ class Training:
             validation_data=self.valid_generator
         )
 
-        self.save_model(
-            path=self.config.trained_model_path,
-            model=self.model
-        )
+        # Ensure absolute path from project root
+        model_path = os.path.abspath(self.config.trained_model_path)
+        os.makedirs(os.path.dirname(model_path), exist_ok=True)
+
+        self.model.save(model_path)
+        print(f"✅ Model saved successfully at: {model_path}")
