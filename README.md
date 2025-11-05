@@ -178,3 +178,4 @@ DVC
 
     ECR_REPOSITORY_NAME = simple-app
 
+## A Big Big Thanks to Krish Naik sir.
