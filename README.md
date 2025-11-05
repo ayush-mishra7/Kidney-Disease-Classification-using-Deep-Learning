@@ -74,9 +74,9 @@ Run this to export as env variables:
 
 ```bash
 
-set MLFLOW_TRACKING_URI=https://dagshub.com/ayush-mishra7/Kidney-Disease-Classification-using-Deep-Learning.mlflow
-set MLFLOW_TRACKING_USERNAME=ayush-mishra7
-set MLFLOW_TRACKING_PASSWORD=7a25054c1f4d45a3471cf6e81adb74f70863502f
+set MLFLOW_TRACKING_URI=
+set MLFLOW_TRACKING_USERNAME=
+set MLFLOW_TRACKING_PASSWORD=
 
 ```
 
@@ -138,8 +138,8 @@ DVC
 
 	
 ## 3. Create ECR repo to store/save docker image
-    - Save the URI: 566373416292.dkr.ecr.us-east-1.amazonaws.com/chicken
-
+    - Save the URI: 
+		
 	
 ## 4. Create EC2 machine (Ubuntu) 
 
